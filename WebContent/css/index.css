@@ -1,0 +1,87 @@
+.body{
+	background-color: #FFFEFF;
+}
+/*210 230 255*/
+.titlediv{
+	/*position: relative;*/
+	/*top: 0.2rem;*/
+	margin: 0 auto;
+	width: 70rem;
+	height: 5.5rem;
+	/*background: radial-gradient(rgba(255, 250, 106, 0.2), #FFFEFF);*/
+	background: linear-gradient(to right,#FFFEFF, rgba(255, 250, 106, 0.2), #FFFEFF);
+}
+.title{
+	position: relative;
+	top: 1rem;
+	font-size: 3rem;
+	text-align:center;
+	height: 3rem;
+	margin: 0 auto;
+	width: 70%;
+	color: rgba(0, 0, 0, 0.5);
+	cursor:pointer;
+}
+.bckcolordiv{
+	margin: 0 auto;
+	width: 55rem;
+	background: linear-gradient(to right,#FFFEFF, rgba(220, 220, 220, 0.1), #FFFEFF);
+
+}
+.logindiv{
+	position: relative;
+	left: 15%;
+	height:15rem;
+	width: 50rem;
+	top: 2rem;
+}
+.logintext{
+	font-size: 1.5rem;
+	color: rgba(0, 0, 0, 0.7);
+}
+.username{
+	position: relative;
+	left: 10%;
+	top: 1rem;
+	height: 3rem;
+}
+.nameiptsz{
+	border: none;
+	width: 15rem;
+	height: 2rem;
+	font-size: 1.2rem;
+}
+.pswdiptsz{
+	border: none;
+	width: 15rem;
+	height: 2rem;
+	font-size: 1.5rem;
+}
+.userpassword{
+	position: relative;
+	left: 10%;
+	top: 1rem;
+	height: 3rem;
+}
+.loginbp{
+	position: relative;
+	top: 2rem;
+	left: 60%;
+}
+
+.main{
+	margin: 0 auto;
+	width: 60%;
+	height: 14rem;
+	background: linear-gradient(to right,#FFFEFF, rgba(220, 220, 220, 0.1), #FFFEFF);
+}
+.buttonpoztndlth{
+	position: relative;
+	width: 25rem;
+	left: 20%;
+}
+.logoutbutton{
+	position: relative;
+	top: 0.2rem;
+	left: 75%
+}

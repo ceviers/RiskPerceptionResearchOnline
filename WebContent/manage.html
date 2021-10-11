@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RPROProject</title>
+	<link href="https://cevier.com/images/cevier.ico" rel="shortcut icon">
+	<!-- 
+	<script type="text/javascript" src="./js/verify.js"></script>
+	 -->
+	<link rel="stylesheet" type="text/css" href="./css/manage.css">
+	<link rel="stylesheet" type="text/css" href="./css/button-full.css">
+	<script type="text/javascript" src="./js/vue.js"></script>
+	<script type="text/javascript" src="./js/qrcode.js"></script>
+</head>
+<body class="body">
+ 	<div class="box" id="box">
+ 		<div @click="backhome" class="titlediv">
+ 			<p class="title">Risk Perception Research Online</p>
+ 		</div>
+ 		<button @click="Logout" class="button button-glow button-rounded button-caution button-tiny logoutbutton" >Log  Out</button>
+ 		<div v-for="(record, index) in records" :key=index>
+			<div class="qdstyle">
+				<p class="qnamestyle">{{index + 1}}&emsp;{{record.questionnairename}}</p>
+				<div class="buttonlistone">
+					<button type="button" disabled="true" style="width: 7rem; background-color:rgba(0, 0, 0, 0); border: 0px solid rgba(90, 100, 120, 0);">提交数:{{record.submitnumbers}}</button><br>
+					<button type="button" disabled="true" style="width: 10rem; background-color:rgba(0, 0, 0, 0); border: 0px solid rgba(90, 100, 120, 0);">创建日期：{{record.createdate.split(' ')[0]}}</button>
+				</div>
+				<div class="buttonlisttwo">
+					<div class="button-group">
+					    <button @click="preview(record.qid)" type="button" class="button button-primary button-tiny">Preview</button>
+					    <button @click="edit(record.qid)" type="button" class="button button-primary button-tiny">Edit</button>
+					    <button @click="deleteRecord(index)" type="button" class="button button-primary button-tiny">Delete</button>
+					</div>&emsp;&emsp;&nbsp;
+					<div class="button-group"><!-- 
+						<div id="qrcode"  style="display: none"></div>
+						<a id="downloadLink"></a> -->
+						<button @click="downloadQRCode(index)" type="button" class="button button-pill button-tiny button-action">Download QRcode</button>
+						<button @click="copyURL(record.qid)" type="button" class="button button-pill button-tiny button-action">Copy Link</button>
+						<button @click="showResult(record.qid)" type="button" class="button button-pill button-tiny button-action">Show Resault</button>
+					</div>
+				</div>
+			</div><br>
+		</div>
+		<div>
+			<div id="qrcode" style="display: none"></div>
+			<a id="downloadLink"></a>
+		</div>
+ 	</div>
+</body>
+<script type="text/javascript" src="./js/manage.js"></script>
+</html>

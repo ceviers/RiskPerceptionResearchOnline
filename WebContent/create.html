@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RPROProject</title>
+	<link href="https://cevier.com/images/cevier.ico" rel="shortcut icon">
+	<script type="text/javascript" src="./js/verify.js"></script>
+	<!-- <script type="text/javascript" src="./js/store.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="./css/create.css">
+	<link rel="stylesheet" type="text/css" href="./css/button-full.css">
+	<script type="text/javascript" src="./js/vue.js"></script>
+</head>
+<body class="body">
+ 	<div id="box">
+ 		<div @click="backhome" class="titlediv">
+ 			<p class="title">Risk Perception Research Online</p>
+ 		</div>
+ 		<button @click="Logout" class="button button-glow button-rounded button-caution button-tiny logoutbutton" >Log  Out</button>
+ 		<h1 class="center"><input type="text" class="titleipt" v-model="datas.questionnairename"></h1>
+ 		<div class="center"><textarea class="descriptionipt" v-model="datas.questionnairedescription"></textarea></div>
+ 		<allquestions v-for="(question, index) in datas.questions" :key="index" :qname=question.qname :options=question.qoption :type=question.qtype :qindex=index :qstyle=question.qstyle @modifyquestion="modify" @deletequestion="delfun"></allquestions>
+ 		<br>
+ 		<div class="qb3" id="addqid">
+ 			<div >
+	 			<input type="text" class="qnameipt" v-model="name"><br>
+	 			<div class="typebtn">
+	 				<button class="button button-pill button-tiny" @click="changeType(0)">单选</button>
+	 				<button class="button button-pill button-tiny" @click="changeType(1)">多选</button>
+	 				<button class="button button-pill button-tiny" @click="changeType(2)">单选+</button>
+	 				<button class="button button-pill button-tiny" @click="changeType(3)">多选+</button>
+	 				&emsp;<input type="button" value="选项个数:" class="button button-tiny" disabled><input type="text" v-model="optionNumbers" style="width:2rem;">
+	 			</div>
+	 			<div class="optionsposition1" v-html="htmlOption">
+	 				
+	 			</div>
+	 			<button class="cancelbutton button button-pill button-tiny" @click="canceladd">cancel</button><button class="addbutton button button-pill button-tiny" @click="ok">ok</button><br><br><br>
+ 			</div>
+ 		</div>
+ 		<div class="qb4	">
+ 			<div class="inpbuttonp">
+ 				<button class="button button-rounded button-action button-tiny" @click="add">add</button>
+	 			<button class="button button-rounded button-action button-tiny" @click="preview">preview</button>
+	 			<button id="SaveB" class="button button-rounded button-action button-tiny" @click="saveall">save</button>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<script type="text/javascript" src="./js/create.js"></script>
+</body>
+</html>

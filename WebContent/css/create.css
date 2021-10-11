@@ -1,0 +1,144 @@
+.body{
+	background-color: #FFFEFF;
+}
+.center{
+	position: relative;
+	top: 10px;
+	height: 60px;
+	margin: 0 auto;
+	width: 70rem;
+	text-align:center;
+	color: #778899;
+}	
+.titlediv{
+	/*position: relative;*/
+	/*top: 0.2rem;*/
+	margin: 0 auto;
+	width: 70rem;
+	height: 3.5rem;
+	/*background: radial-gradient(rgba(255, 250, 106, 0.2), #FFFEFF);*/
+	background: linear-gradient(to right,#FFFEFF, rgba(255, 250, 106, 0.2), #FFFEFF);
+}
+.title{
+	position: relative;
+	top: 0.5rem;
+	font-size: 2rem;
+	text-align:center;
+	height: 3rem;
+	margin: 0 auto;
+	width: 70%;
+	color: rgba(0, 0, 0, 0.5);
+	/*background: linear-gradient(to right,#FFFEFF, rgba(255, 250, 106, 0.2), #FFFEFF);*/
+
+}
+.logoutbutton{
+	position: relative;
+	top: 0.8rem;
+	left: 75%;
+}
+.titleipt{
+	border: 1px solid rgba(90, 100, 120, 0.5);
+	height: 2rem;
+	width: 50rem;
+	text-align:center;
+	font-size: 1.3rem;
+	color: #778899;
+}
+.descriptionipt{
+	top: 10px;
+	border: 0.5px solid rgba(90, 100, 120, 0.3);
+	height: 3rem;
+	font-size: 1.2rem;
+	width: 60rem;
+	text-align:center;
+	color: #778899;	
+	overflow-y:scroll;
+}
+.qb1{
+	margin: 0 auto;
+	width: 70%;
+	background-color: rgba(245, 255, 246, 0.5);
+}
+.qb2{
+	margin: 0 auto;
+	width: 70%;
+	background-color: rgba(234, 249, 254, 0.3);
+}
+.qb3{
+	margin: 0 auto;
+	width: 70%;
+	/*height: 15rem;*/
+	background-color: rgba(243, 243, 254, 0.3);
+}
+.qb4{
+	position: relative;
+	margin: 0 auto;
+	top: 0.5rem;
+	width: 70%;
+	height: 2.5rem;
+	background: linear-gradient(to right, rgba(245, 255, 246, 0.5) , #FFFEFF);
+}
+.ql1{
+	position: relative;
+	top: 0.3rem;
+	left: 5rem;
+	width: 50rem;
+	color:rgba(100, 100, 100, 0.8);
+}
+.ql2{
+	position: relative;
+	top: 0.3rem;
+	left: 6rem;	
+}
+.qnameipt{
+	border: 0.5px solid rgba(120, 70, 90, 0.2);
+	position: relative;
+	top: 0.3rem;
+	left: 5rem;
+	height: 1.3rem;
+	width: 13rem;
+	color: rgba(100, 100, 100, 0.8);
+}
+.typebtn{
+	position: relative;
+	top: 0.6rem;
+	left: 7rem;
+}
+.optionsposition1{
+	position: relative;
+	top:0.8rem;	
+	left: 6rem;
+}
+.optionsposition2{
+	position: relative;
+	top:0.2rem;	
+	height: 2rem;
+	margin: 0 auto;
+}
+.optionipt{
+	border: 1px solid rgba(120, 70, 90, 0.2);
+	position: relative;
+	height: 1.2rem;
+	width: 15rem;
+	color: rgba(60, 60, 60, 0.9);
+}
+.diyoptionipt{
+	position: relative;
+	width: 1.2rem;
+	width: 15.7rem;
+}
+.inpbuttonp{
+	position: relative;
+	top: 0.6rem;	
+	left: 5rem;
+}
+.addbutton{
+	position: relative;
+	top: 1rem;
+	left: 17rem;
+}
+.cancelbutton{
+	position: relative;
+	top: 1rem;
+	left: 16.5rem;
+}

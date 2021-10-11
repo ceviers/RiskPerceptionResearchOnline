@@ -1,0 +1,72 @@
+.body{
+	background-color: #FFFEFF;
+}
+.titlediv{
+	/*position: relative;*/
+	/*top: 0.2rem;*/
+	margin: 0 auto;
+	width: 70rem;
+	height: 3.5rem;
+	/*background: radial-gradient(rgba(255, 250, 106, 0.2), #FFFEFF);*/
+	background: linear-gradient(to right,#FFFEFF, rgba(255, 250, 106, 0.2), #FFFEFF);
+}
+.title{
+	position: relative;
+	top: 0.5rem;
+	font-size: 2rem;
+	text-align:center;
+	height: 3rem;
+	margin: 0 auto;
+	width: 60rem;
+	color: rgba(0, 0, 0, 0.5);
+	/*background: linear-gradient(to right,#FFFEFF, rgba(255, 250, 106, 0.2), #FFFEFF);*/
+
+}
+.logoutbutton{
+	position: relative;
+	top: 0.8rem;
+	left: 80rem;
+}
+.downloadbutton{
+	position: relative;
+	top: 1rem;
+	left: 60rem;
+}
+.tablediv{
+	width: 100%;
+	overflow:auto;
+}
+.table{
+	border-top:1px solid rgba(0, 0, 0, 0.2);
+	border-left:1px solid rgba(0, 0, 0, 0.2);
+	border-spacing:0;
+	color: rgba(0, 0, 0, 0.7);
+}
+.caption{
+	position: relative;
+	left: 30rem;
+	font-size: 1.6rem;
+	color: rgba(0, 0, 0, 0.5);
+}
+.td{
+	border-bottom:1px solid rgba(0, 0, 0, 0.2);
+	border-right:1px solid rgba(0, 0, 0, 0.2);
+	max-width: 8rem;
+	height: 1rem;
+	padding:2px 3px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+.th{
+	border-bottom:1px solid rgba(0, 0, 0, 0.2);
+	border-right:1px solid rgba(0, 0, 0, 0.2);
+	max-width: 8rem;
+	height: 1rem;
+	padding:2px 3px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}

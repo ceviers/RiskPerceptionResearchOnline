@@ -1,0 +1,174 @@
+.box{
+	width: 100%;
+	background-color: #FFFEFF;
+}
+/*
+尺寸大于500的普通屏
+*/
+@media screen and (min-width: 500px) and (-webkit-min-device-pixel-ratio:1){
+	.qb1{
+		margin: 0 auto;
+		width: 70%;
+		background-color: rgba(245, 255, 246, 0.5);
+	}
+	.qb2{
+		margin: 0 auto;
+		width: 70%;
+		background-color: rgba(234, 249, 254, 0.3);
+	}
+	.qb3{
+		margin: 0 auto;
+		width: 70%;
+		background-color: rgba(243, 243, 254, 0.3);
+	}
+	.qb4{
+		margin: 0 auto;
+		width: 70%;
+		background-color: rgba(255, 249, 245, 0.3);
+	}
+	.qb5{
+		margin: 0 auto;
+		width: 70%;
+		background-color: rgba(245, 239, 245, 0.3);
+	}
+	.qb6{
+		margin: 0 auto;
+		width: 70%;
+		background-color: rgba(255, 243, 243, 0.3);
+	}
+	.center{
+		position: relative;
+		top: 10px;
+		height: 60px;
+		margin: 0 auto;
+		width: 70%;
+		text-align:center;
+		color: #778899;
+	}
+	.ql1{
+		position: relative;
+		top: 0.3rem;
+		left: 2rem;
+		color:rgba(100, 100, 100, 1);
+	}
+	.ql2{
+		position: relative;
+		top: 0.2rem;
+		left: 3rem;
+		color:red;
+		/*color: rgba(130, 130, 130, 1);*/
+	}
+}
+/*
+尺寸小于500的普通屏
+*/
+@media screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio:1){
+	.qb1{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(245, 255, 246, 0.5);
+	}
+	.qb2{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(234, 249, 254, 0.3);
+	}
+	.qb3{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(243, 243, 254, 0.3);
+	}
+	.qb4{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(255, 249, 245, 0.3);
+	}
+	.qb5{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(245, 239, 245, 0.3);
+	}
+	.qb6{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(255, 243, 243, 0.3);
+	}
+	.center{
+		position: relative;
+		top: 10px;
+		height: 60px;
+		margin: 0 auto;
+		width: 90%;
+		text-align:center;
+		color: #778899;
+	}
+	.ql1{
+		position: relative;
+		top: 0.3rem;
+		left: 2rem;
+		color:rgba(100, 100, 100, 1);
+	}
+	.ql2{
+		position: relative;
+		top: 0.2rem;
+		left: 3rem;
+		color: rgba(130, 130, 130, 1);
+	}
+}
+/*
+尺寸小于500的二倍屏
+*/
+@media screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio:2){
+	.qb1{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(245, 255, 246, 0.5);
+	}
+	.qb2{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(234, 249, 254, 0.3);
+	}
+	.qb3{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(243, 243, 254, 0.3);
+	}
+	.qb4{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(255, 249, 245, 0.3);
+	}
+	.qb5{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(245, 239, 245, 0.3);
+	}
+	.qb6{
+		margin: 0 auto;
+		width: 90%;
+		background-color: rgba(255, 243, 243, 0.3);
+	}
+	.center{
+		position: relative;
+		top: 10px;
+		height: 60px;
+		margin: 0 auto;
+		width: 90%;
+		text-align:center;
+		color: #778899;
+	}
+	.ql1{
+		position: relative;
+		top: 0.3rem;
+		left: 2rem;
+		color: red;
+		/*color:rgba(100, 100, 100, 1);*/
+	}
+	.ql2{
+		position: relative;
+		top: 0.2rem;
+		left: 3rem;
+		color: rgba(130, 130, 130, 1);
+	}
+}

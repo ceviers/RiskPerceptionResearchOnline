@@ -1,0 +1,71 @@
+.box{
+	width: 100%;
+	background-color: #FFFEFF;
+}
+.qb1{
+	margin: 0 auto;
+	width: 70%;
+	background-color: rgba(245, 255, 246, 0.5);
+}
+.qb2{
+	margin: 0 auto;
+	width: 70%;
+	background-color: rgba(234, 249, 254, 0.3);
+}
+.qb3{
+	margin: 0 auto;
+	width: 70%;
+	background-color: rgba(243, 243, 254, 0.3);
+}
+.qb4{
+	margin: 0 auto;
+	width: 70%;
+	background-color: rgba(255, 249, 245, 0.3);
+}
+.qb5{
+	margin: 0 auto;
+	width: 70%;
+	background-color: rgba(245, 239, 245, 0.3);
+}
+.qb6{
+	margin: 0 auto;
+	width: 70%;
+	background-color: rgba(255, 243, 243, 0.3);
+}
+.center{
+	position: relative;
+	top: 10px;
+	height: 60px;
+	margin: 0 auto;
+	width: 70%;
+	text-align:center;
+	color: #778899;
+}
+.ql1{
+	position: relative;
+	top: 0.3rem;
+	left: 2rem;
+	color:rgba(100, 100, 100, 1);
+}
+.ql2{
+	position: relative;
+	top: 0.2rem;
+	left: 3rem;
+	color: rgba(130, 130, 130, 1);
+}
+.iptsz{
+	width: 1rem;
+	height: 1rem;
+}
+.diysz{
+	width: 12rem;
+	height: 1rem;
+}
+
+.button-position{
+  position: relative;
+  top: 0.2rem;
+  left: 20%;
+  height: 2.5rem;
+  width: 10%;
+}

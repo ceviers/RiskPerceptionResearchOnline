@@ -1,0 +1,60 @@
+.body{
+	background-color: #FFFEFF;
+}
+/*210 230 255*/
+.titlediv{
+	/*position: relative;*/
+	/*top: 0.2rem;*/
+	margin: 0 auto;
+	width: 70rem;
+	height: 3.5rem;
+	/*background: radial-gradient(rgba(255, 250, 106, 0.2), #FFFEFF);*/
+	background: linear-gradient(to right,#FFFEFF, rgba(255, 250, 106, 0.2), #FFFEFF);
+}
+.title{
+	position: relative;
+	top: 0.5rem;
+	font-size: 2rem;
+	text-align:center;
+	height: 3rem;
+	margin: 0 auto;
+	width: 70%;
+	color: rgba(0, 0, 0, 0.5);
+	/*background: linear-gradient(to right,#FFFEFF, rgba(255, 250, 106, 0.2), #FFFEFF);*/
+
+}
+.logoutbutton{
+	position: relative;
+	top: 0.5rem;
+	left: 75%;
+}
+.qdstyle{
+	position: relative;
+	top: 1rem;
+	margin: 0 auto;
+	width: 45.5rem;
+	height: 4.95rem;
+	background-color: rgba(210, 230, 255, 0.9);
+	/*background-color: #87cdff;*/
+	/*background: radial-gradient(#87cdff, #FFFEFF);*/
+	border-radius: 0.4rem;
+	color: rgba(0, 0, 0, 0.5);
+}
+.qnamestyle{
+	position: absolute;
+	left: 3%;
+	top: -0.8rem;
+	width: 64rem;
+	font-weight: bold;
+	/*user-select:none;*/
+}
+.buttonlistone{
+	position: absolute;
+	left: 67%;
+	top: 0.5rem;
+}
+.buttonlisttwo{
+	position: absolute;
+	left: 6%;
+	top: 3.2rem;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RPROProject</title>
+	<link href="https://cevier.com/images/cevier.ico" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./css/button-full.css">
+	<script type="text/javascript" src="./js/vue.js"></script>
+</head>
+<body class="body">
+ 	<div class="box" id="box">
+ 		<div class="titlediv">
+ 			<p class="title" title="About This Site." @click="toAbout">Risk Perception Research Online</p>
+ 		</div><br>
+	 	<div id="login">
+	 		<div  class="bckcolordiv">
+				<div class="logindiv">
+					<div class="username logintext">
+						用户名：<input id="usrn" type="text" value="User Name" class="nameiptsz button-glow button-rounded">
+					</div><br>
+					<div class="userpassword logintext">
+						&nbsp;&nbsp;密码：&nbsp;&nbsp;<input id="psw" type="password" value="User psw" class="pswdiptsz button-glow button-rounded">
+					</div>
+					<button id="loginB" class="loginbp button button-glow button-rounded button-raised button-primary" @click="login">Log In</button>
+				</div>
+			</div>
+		</div>
+		<div id="main" style="display: none;">
+			<a @click="logout" class="button button-glow button-rounded button-caution button-tiny logoutbutton" >Log  Out</a><br><br>
+			<div class="main">
+				<div style="height: 10rem;"><br>
+					<button @click="CNQClick" class="buttonpoztndlth button button-glow button-primary button-pill button-large">Create New Questionnaire</button><br><br>
+					<button @click="MQClick" class="buttonpoztndlth button button-glow button-primary button-pill button-large button-caution">Manage Questionnaire</button><br><br>
+					<button class="buttonpoztndlth button button-glow button-primary button-pill button-large button-highlight">Data Analysis</button><br><br>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="./js/index.js"></script>
+</html>

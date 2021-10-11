@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RPROProject</title>
+	<link href="https://cevier.com/images/cevier.ico" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="./css/pc-fill.css">
+	<link rel="stylesheet" type="text/css" href="./css/button.css">
+	<script type="text/javascript" src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script src="./js/vue.js"></script>
+</head>
+<body>
+ 	<div class="box" id="box">
+		<div v-if="bflag == 1">您的浏览器不支持本页，推荐您使用谷歌浏览器、Edge浏览器或360浏览器</div>
+		<h1 class="center" >{{questionnairename}}</h1>
+		<p id="description" class="center" v-html="questionnairedescription"></p>
+		<allquestions v-for="(question, index) in questions" :key="index" :qname=question.qname :options=question.qoption :type=question.qtype :qindex=index :qstyle=question.qstyle></allquestions>
+		<button  class="button button-primary button-pill button-normal button-position" @click="submit">提交</button>
+ 	</div>
+ 	<script type="text/javascript" src="./js/fill.js"></script>
+</body>
+</html>
